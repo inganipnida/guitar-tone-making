@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero card">
+    <h1>Closest playable Quad Cortex approximation</h1>
+    <p>This MVP analyzes a short guitar audio segment and suggests a practical Quad Cortex starting point. It does not claim perfect tone cloning.</p>
+</section>
+
+{% if error %}
+<div class="alert">{{ error }}</div>
+{% endif %}
+
+<section class="card">
+    <form action="/analyze" method="post" enctype="multipart/form-data" class="analysis-form">
+        <label>
+            <span>Audio file</span>
+            <input type="file" name="audio_file" accept="audio/*" required>
+        </label>
+        <label>
+            <span>Future URL input placeholder</span>
+            <input type="url" name="source_url" placeholder="https://example.com/future-source" value="{{ form.source_url if form else '' }}">
+        </label>
+        <p class="helper-text">For this MVP, use a short guitar-focused segment of up to {{ max_segment_length_sec|int }} seconds. The URL field is stored only as future metadata.</p>
+        <div class="grid two-up">
+            <label>
+                <span>Start (sec)</span>
+                <input type="number" name="start_sec" step="0.1" min="0" value="{{ form.start_sec if form else 0 }}" required>
+            </label>
+            <label>
+                <span>End (sec)</span>
+                <input type="number" name="end_sec" step="0.1" min="0.1" value="{{ form.end_sec if form else 10 }}" required>
+            </label>
+        </div>
+        <label>
+            <span>Guitar type</span>
+            <select name="guitar_type">
+                {% for guitar in ['Strat', 'Les Paul', 'Tele', 'Super Strat', 'Other'] %}
+                <option value="{{ guitar }}" {% if form and form.guitar_type == guitar %}selected{% endif %}>{{ guitar }}</option>
+                {% endfor %}
+            </select>
+        </label>
+        <button type="submit">Analyze segment</button>
+    </form>
+</section>
+{% endblock %}

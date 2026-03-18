@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+    <p class="eyebrow">Analysis #{{ record.id }}</p>
+    <h1>{{ record.archetype.replace('_', ' ').title() }}</h1>
+    <p>{{ record.tonal_summary }}</p>
+    <div class="badge-row">
+        <span class="badge">Guitar: {{ record.guitar_type }}</span>
+        <span class="badge">Confidence: {{ record.confidence_label }}</span>
+        <span class="badge">Segment: {{ '%.1f'|format(record.start_sec) }}s → {{ '%.1f'|format(record.end_sec) }}s</span>
+        {% if mix_flag %}<span class="badge warning">Mixed-audio caution</span>{% endif %}
+    </div>
+</section>
+
+<section class="grid result-grid">
+    <article class="card">
+        <h2>Tonal profile</h2>
+        <ul class="kv-list">
+            {% for key, value in tone_profile.items() %}
+                {% if key != 'tags' %}
+                <li><span>{{ key.replace('_', ' ').title() }}</span><strong>{{ '%.2f'|format(value) }}</strong></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <p><strong>Tags:</strong> {{ tone_profile.tags|join(', ') }}</p>
+    </article>
+    <article class="card">
+        <h2>Why this was recommended</h2>
+        <p>{{ record.explanation }}</p>
+        {% if warnings %}
+        <h3>Warnings</h3>
+        <ul>
+            {% for warning in warnings %}
+            <li>{{ warning }}</li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>No major warning flags were triggered.</p>
+        {% endif %}
+    </article>
+</section>
+
+<section class="grid result-grid">
+    <article class="card">
+        <h2>Analysis diagnostics</h2>
+        <ul class="kv-list compact">
+            <li><span>Mix likelihood</span><strong>{{ '%.2f'|format(features.mix_likelihood) }}</strong></li>
+            <li><span>Distortion score</span><strong>{{ '%.2f'|format(features.distortion_score) }}</strong></li>
+            <li><span>Ambience score</span><strong>{{ '%.2f'|format(features.ambience_score) }}</strong></li>
+            <li><span>Sustain proxy</span><strong>{{ '%.2f'|format(features.sustain_proxy) }}</strong></li>
+            <li><span>Harmonic ratio</span><strong>{{ '%.2f'|format(features.harmonic_ratio) }}</strong></li>
+            <li><span>Percussive ratio</span><strong>{{ '%.2f'|format(features.percussive_ratio) }}</strong></li>
+        </ul>
+    </article>
+    <article class="card">
+        <h2>Source metadata</h2>
+        <ul class="kv-list compact">
+            <li><span>Original file</span><strong>{{ record.source_filename }}</strong></li>
+            <li><span>Processed segment</span><strong>{{ record.processed_filename }}</strong></li>
+            <li><span>Input mode</span><strong>{{ record.input_mode }}</strong></li>
+            <li><span>Source URL metadata</span><strong>{{ record.source_url if record.source_url else 'Not provided' }}</strong></li>
+        </ul>
+    </article>
+</section>
+
+<section class="card">
+    <h2>Primary Quad Cortex chain</h2>
+    <p>{{ recommendation.primary.summary }}</p>
+    {% for block in recommendation.primary.blocks %}
+    <div class="block-card">
+        <h3>{{ loop.index }}. {{ block.type|title }} — {{ block.device }}</h3>
+        <p>{{ block.rationale }}</p>
+        <ul>
+            {% for key, value in block.settings.items() %}
+            <li><strong>{{ key.replace('_', ' ').title() }}:</strong> {{ value }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</section>
+
+<section class="card">
+    <h2>Alternative chains</h2>
+    <div class="grid alternatives-grid">
+    {% for chain in recommendation.alternatives %}
+        <article class="alt-card">
+            <h3>{{ chain.name }}</h3>
+            <p>{{ chain.summary }}</p>
+            <ol>
+                {% for block in chain.blocks %}
+                <li>{{ block.type|title }} — {{ block.device }}</li>
+                {% endfor %}
+            </ol>
+        </article>
+    {% endfor %}
+    </div>
+</section>
+{% endblock %}

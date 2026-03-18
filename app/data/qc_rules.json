@@ -1,0 +1,169 @@
+{
+  "clean": {
+    "primary": [
+      {"chain_name": "Articulate Clean Foundation", "chain_summary": "Clean amp with light compression and restrained ambience for a natural, playable baseline.", "type": "gate", "device": "Smart Gate", "rationale": "Keeps idle noise under control without chopping pick dynamics."},
+      {"chain_name": "Articulate Clean Foundation", "chain_summary": "Clean amp with light compression and restrained ambience for a natural, playable baseline.", "type": "comp", "device": "Studio Comp", "rationale": "Adds level control and a touch of sustain for even clean phrasing."},
+      {"chain_name": "Articulate Clean Foundation", "chain_summary": "Clean amp with light compression and restrained ambience for a natural, playable baseline.", "type": "amp", "device": "US Clean Combo", "rationale": "Provides a neutral clean core that can be voiced brighter or warmer."},
+      {"chain_name": "Articulate Clean Foundation", "chain_summary": "Clean amp with light compression and restrained ambience for a natural, playable baseline.", "type": "cab", "device": "2x12 Open Back", "rationale": "Open-back style voicing supports airy clean tones."},
+      {"chain_name": "Articulate Clean Foundation", "chain_summary": "Clean amp with light compression and restrained ambience for a natural, playable baseline.", "type": "reverb", "device": "Plate Reverb", "rationale": "Small plate helps the guitar sit naturally without washing it out."}
+    ],
+    "alternative_1": [
+      {"chain_name": "Dry Studio Clean", "chain_summary": "Tighter and drier variant for direct or funk-style parts.", "type": "gate", "device": "Studio Gate", "rationale": "A slightly firmer gate suits percussive playing."},
+      {"chain_name": "Dry Studio Clean", "chain_summary": "Tighter and drier variant for direct or funk-style parts.", "type": "amp", "device": "US Clean Combo", "rationale": "Keeps transients articulate."},
+      {"chain_name": "Dry Studio Clean", "chain_summary": "Tighter and drier variant for direct or funk-style parts.", "type": "cab", "device": "2x12 Open Back", "rationale": "Maintains clarity."},
+      {"chain_name": "Dry Studio Clean", "chain_summary": "Tighter and drier variant for direct or funk-style parts.", "type": "eq", "device": "Studio EQ", "rationale": "Helps shape high-end snap and low-end cleanup."}
+    ],
+    "alternative_2": [
+      {"chain_name": "Boutique Clean Bloom", "chain_summary": "Adds more sustain and touch-sensitive bloom for expressive clean lines.", "type": "comp", "device": "Optical Comp", "rationale": "Softer attack and bloom suit legato clean work."},
+      {"chain_name": "Boutique Clean Bloom", "chain_summary": "Adds more sustain and touch-sensitive bloom for expressive clean lines.", "type": "amp", "device": "Boutique Lead Combo", "rationale": "A boutique-voiced clean edge can feel more touch-sensitive."},
+      {"chain_name": "Boutique Clean Bloom", "chain_summary": "Adds more sustain and touch-sensitive bloom for expressive clean lines.", "type": "cab", "device": "1x12 Boutique Alnico", "rationale": "Adds sweetness in the upper mids."},
+      {"chain_name": "Boutique Clean Bloom", "chain_summary": "Adds more sustain and touch-sensitive bloom for expressive clean lines.", "type": "reverb", "device": "Plate Reverb", "rationale": "Provides modest ambience."}
+    ],
+    "alternative_3": [
+      {"chain_name": "Shimmering Chorus Clean", "chain_summary": "For players who want the same clean center with subtle width and motion.", "type": "comp", "device": "Studio Comp", "rationale": "Helps keep clean levels consistent."},
+      {"chain_name": "Shimmering Chorus Clean", "chain_summary": "For players who want the same clean center with subtle width and motion.", "type": "amp", "device": "US Clean Combo", "rationale": "Neutral clean base for time-based effects."},
+      {"chain_name": "Shimmering Chorus Clean", "chain_summary": "For players who want the same clean center with subtle width and motion.", "type": "cab", "device": "2x12 Open Back", "rationale": "Maintains openness."},
+      {"chain_name": "Shimmering Chorus Clean", "chain_summary": "For players who want the same clean center with subtle width and motion.", "type": "mod", "device": "Dimension Chorus", "rationale": "Adds subtle width without overwhelming articulation."},
+      {"chain_name": "Shimmering Chorus Clean", "chain_summary": "For players who want the same clean center with subtle width and motion.", "type": "reverb", "device": "Plate Reverb", "rationale": "Rounds the tail gently."}
+    ]
+  },
+  "edge_of_breakup": {
+    "primary": [
+      {"chain_name": "Touch Sensitive Breakup", "chain_summary": "A low-gain edge-of-breakup chain built for pick sensitivity and volume-knob cleanup.", "type": "gate", "device": "Smart Gate", "rationale": "Uses light gating to keep cleanup behavior natural."},
+      {"chain_name": "Touch Sensitive Breakup", "chain_summary": "A low-gain edge-of-breakup chain built for pick sensitivity and volume-knob cleanup.", "type": "drive", "device": "Transparent Drive", "rationale": "Acts as a gentle push into the amp rather than a heavy source of distortion."},
+      {"chain_name": "Touch Sensitive Breakup", "chain_summary": "A low-gain edge-of-breakup chain built for pick sensitivity and volume-knob cleanup.", "type": "amp", "device": "Boutique Lead Combo", "rationale": "Responsive gain structure suits edge-of-breakup work."},
+      {"chain_name": "Touch Sensitive Breakup", "chain_summary": "A low-gain edge-of-breakup chain built for pick sensitivity and volume-knob cleanup.", "type": "cab", "device": "1x12 Boutique Alnico", "rationale": "Adds upper-mid bloom and touch response."},
+      {"chain_name": "Touch Sensitive Breakup", "chain_summary": "A low-gain edge-of-breakup chain built for pick sensitivity and volume-knob cleanup.", "type": "reverb", "device": "Plate Reverb", "rationale": "Provides space while keeping articulation intact."}
+    ],
+    "alternative_1": [
+      {"chain_name": "American Edge", "chain_summary": "Cleaner and firmer breakup with more headroom.", "type": "drive", "device": "Transparent Drive", "rationale": "Adds a controlled push."},
+      {"chain_name": "American Edge", "chain_summary": "Cleaner and firmer breakup with more headroom.", "type": "amp", "device": "US Clean Combo", "rationale": "Headroom helps create a wider cleanup range."},
+      {"chain_name": "American Edge", "chain_summary": "Cleaner and firmer breakup with more headroom.", "type": "cab", "device": "2x12 Open Back", "rationale": "Keeps breakup open and airy."},
+      {"chain_name": "American Edge", "chain_summary": "Cleaner and firmer breakup with more headroom.", "type": "eq", "device": "Studio EQ", "rationale": "Lets players trim lows and push presence."}
+    ],
+    "alternative_2": [
+      {"chain_name": "British Hair", "chain_summary": "More upper-mid chew for classic roots rock and blues-rock textures.", "type": "drive", "device": "Mid Boost OD", "rationale": "Upper-mid bump helps the amp bite."},
+      {"chain_name": "British Hair", "chain_summary": "More upper-mid chew for classic roots rock and blues-rock textures.", "type": "amp", "device": "British Crunch Head", "rationale": "Classic breakup texture."},
+      {"chain_name": "British Hair", "chain_summary": "More upper-mid chew for classic roots rock and blues-rock textures.", "type": "cab", "device": "4x12 British V30", "rationale": "Supports bite and projection."},
+      {"chain_name": "British Hair", "chain_summary": "More upper-mid chew for classic roots rock and blues-rock textures.", "type": "reverb", "device": "Plate Reverb", "rationale": "Adds a restrained tail."}
+    ],
+    "alternative_3": [
+      {"chain_name": "Bloomy Breakup Lead", "chain_summary": "Adds more sustain and room for melodic lead phrasing.", "type": "comp", "device": "Optical Comp", "rationale": "Softens the front edge and extends notes."},
+      {"chain_name": "Bloomy Breakup Lead", "chain_summary": "Adds more sustain and room for melodic lead phrasing.", "type": "amp", "device": "Boutique Lead Combo", "rationale": "Responsive and vocal mid character."},
+      {"chain_name": "Bloomy Breakup Lead", "chain_summary": "Adds more sustain and room for melodic lead phrasing.", "type": "cab", "device": "1x12 Boutique Alnico", "rationale": "Warm upper-mid bloom supports melodic playing."},
+      {"chain_name": "Bloomy Breakup Lead", "chain_summary": "Adds more sustain and room for melodic lead phrasing.", "type": "delay", "device": "Digital Delay", "rationale": "A short delay can thicken lines without making them ambient."}
+    ]
+  },
+  "crunch": {
+    "primary": [
+      {"chain_name": "Focused Crunch Core", "chain_summary": "A practical rock crunch chain with midrange definition and controllable gain.", "type": "gate", "device": "Smart Gate", "rationale": "Controls hiss as gain rises."},
+      {"chain_name": "Focused Crunch Core", "chain_summary": "A practical rock crunch chain with midrange definition and controllable gain.", "type": "drive", "device": "Mid Boost OD", "rationale": "Tightens the front end and pushes mids."},
+      {"chain_name": "Focused Crunch Core", "chain_summary": "A practical rock crunch chain with midrange definition and controllable gain.", "type": "amp", "device": "British Crunch Head", "rationale": "Classic crunch topology with enough cut to stay mix friendly."},
+      {"chain_name": "Focused Crunch Core", "chain_summary": "A practical rock crunch chain with midrange definition and controllable gain.", "type": "cab", "device": "4x12 British V30", "rationale": "Pairs naturally with crunch voicings."},
+      {"chain_name": "Focused Crunch Core", "chain_summary": "A practical rock crunch chain with midrange definition and controllable gain.", "type": "eq", "device": "Parametric EQ", "rationale": "Lets players notch mud and set top-end edge."}
+    ],
+    "alternative_1": [
+      {"chain_name": "Open Crunch Rhythm", "chain_summary": "A slightly more open crunch for classic rock rhythm parts.", "type": "drive", "device": "Transparent Drive", "rationale": "Keeps more low-end openness than a tighter OD."},
+      {"chain_name": "Open Crunch Rhythm", "chain_summary": "A slightly more open crunch for classic rock rhythm parts.", "type": "amp", "device": "British Crunch Head", "rationale": "Still delivers classic bite."},
+      {"chain_name": "Open Crunch Rhythm", "chain_summary": "A slightly more open crunch for classic rock rhythm parts.", "type": "cab", "device": "4x12 British V30", "rationale": "Retains projection."},
+      {"chain_name": "Open Crunch Rhythm", "chain_summary": "A slightly more open crunch for classic rock rhythm parts.", "type": "reverb", "device": "Plate Reverb", "rationale": "Small room feel for liveliness."}
+    ],
+    "alternative_2": [
+      {"chain_name": "Modern Crunch Push", "chain_summary": "A tighter, firmer crunch for contemporary rhythm work.", "type": "gate", "device": "Studio Gate", "rationale": "Useful when rhythm stops need to be cleaner."},
+      {"chain_name": "Modern Crunch Push", "chain_summary": "A tighter, firmer crunch for contemporary rhythm work.", "type": "drive", "device": "Mid Boost OD", "rationale": "Boosting the front end helps tighten palm mutes."},
+      {"chain_name": "Modern Crunch Push", "chain_summary": "A tighter, firmer crunch for contemporary rhythm work.", "type": "amp", "device": "Modern High Gain Stack", "rationale": "Used at lower gain for a firmer feel."},
+      {"chain_name": "Modern Crunch Push", "chain_summary": "A tighter, firmer crunch for contemporary rhythm work.", "type": "cab", "device": "4x12 Modern Tight", "rationale": "Keeps lows in check."}
+    ],
+    "alternative_3": [
+      {"chain_name": "Crunch Lead Lift", "chain_summary": "Adds sustain and repeats for melodic crunch leads.", "type": "drive", "device": "Mid Boost OD", "rationale": "Provides vocal mids."},
+      {"chain_name": "Crunch Lead Lift", "chain_summary": "Adds sustain and repeats for melodic crunch leads.", "type": "amp", "device": "British Crunch Head", "rationale": "A proven lead-crunch core."},
+      {"chain_name": "Crunch Lead Lift", "chain_summary": "Adds sustain and repeats for melodic crunch leads.", "type": "delay", "device": "Digital Delay", "rationale": "Extends phrases tastefully."},
+      {"chain_name": "Crunch Lead Lift", "chain_summary": "Adds sustain and repeats for melodic crunch leads.", "type": "reverb", "device": "Plate Reverb", "rationale": "Adds a refined tail."}
+    ]
+  },
+  "high_gain": {
+    "primary": [
+      {"chain_name": "Tight Modern Gain", "chain_summary": "High-gain rhythm and lead baseline with a controlled low end and focused attack.", "type": "gate", "device": "Studio Gate", "rationale": "Critical for controlling noise in high-gain settings."},
+      {"chain_name": "Tight Modern Gain", "chain_summary": "High-gain rhythm and lead baseline with a controlled low end and focused attack.", "type": "drive", "device": "Mid Boost OD", "rationale": "Used primarily as a tightening boost into the amp."},
+      {"chain_name": "Tight Modern Gain", "chain_summary": "High-gain rhythm and lead baseline with a controlled low end and focused attack.", "type": "amp", "device": "Modern High Gain Stack", "rationale": "Delivers the saturation and firmness expected from modern gain tones."},
+      {"chain_name": "Tight Modern Gain", "chain_summary": "High-gain rhythm and lead baseline with a controlled low end and focused attack.", "type": "cab", "device": "4x12 Modern Tight", "rationale": "Keeps low end compact and articulate."},
+      {"chain_name": "Tight Modern Gain", "chain_summary": "High-gain rhythm and lead baseline with a controlled low end and focused attack.", "type": "eq", "device": "Parametric EQ", "rationale": "Lets players trim boom and shape upper-mid cut."}
+    ],
+    "alternative_1": [
+      {"chain_name": "Saturated Lead Gain", "chain_summary": "A more fluid lead-biased version with extra sustain and space.", "type": "gate", "device": "Smart Gate", "rationale": "Keeps notes flowing more naturally than a hard gate."},
+      {"chain_name": "Saturated Lead Gain", "chain_summary": "A more fluid lead-biased version with extra sustain and space.", "type": "drive", "device": "Mid Boost OD", "rationale": "Keeps pick definition intact."},
+      {"chain_name": "Saturated Lead Gain", "chain_summary": "A more fluid lead-biased version with extra sustain and space.", "type": "amp", "device": "Modern High Gain Stack", "rationale": "Lead-friendly high-gain core."},
+      {"chain_name": "Saturated Lead Gain", "chain_summary": "A more fluid lead-biased version with extra sustain and space.", "type": "delay", "device": "Digital Delay", "rationale": "Helps lead notes carry."},
+      {"chain_name": "Saturated Lead Gain", "chain_summary": "A more fluid lead-biased version with extra sustain and space.", "type": "reverb", "device": "Hall Reverb", "rationale": "Adds size without going fully ambient."}
+    ],
+    "alternative_2": [
+      {"chain_name": "Classic Metal Bite", "chain_summary": "A drier, more aggressive gain chain with classic upper-mid bite.", "type": "gate", "device": "Studio Gate", "rationale": "Maintains stop-start precision."},
+      {"chain_name": "Classic Metal Bite", "chain_summary": "A drier, more aggressive gain chain with classic upper-mid bite.", "type": "amp", "device": "British Crunch Head", "rationale": "Classic hard-rock and metal flavor when pushed."},
+      {"chain_name": "Classic Metal Bite", "chain_summary": "A drier, more aggressive gain chain with classic upper-mid bite.", "type": "cab", "device": "4x12 British V30", "rationale": "Classic projection and bite."},
+      {"chain_name": "Classic Metal Bite", "chain_summary": "A drier, more aggressive gain chain with classic upper-mid bite.", "type": "eq", "device": "Parametric EQ", "rationale": "Critical for old-school low-end trimming and presence shaping."}
+    ],
+    "alternative_3": [
+      {"chain_name": "Wide Modern Lead", "chain_summary": "For players who want the high-gain base with more width and post effects.", "type": "gate", "device": "Smart Gate", "rationale": "More natural release for lead work."},
+      {"chain_name": "Wide Modern Lead", "chain_summary": "For players who want the high-gain base with more width and post effects.", "type": "amp", "device": "Modern High Gain Stack", "rationale": "Provides the saturated base."},
+      {"chain_name": "Wide Modern Lead", "chain_summary": "For players who want the high-gain base with more width and post effects.", "type": "mod", "device": "Subtle Tri-Chorus", "rationale": "Adds width in moderation."},
+      {"chain_name": "Wide Modern Lead", "chain_summary": "For players who want the high-gain base with more width and post effects.", "type": "delay", "device": "Dual Delay", "rationale": "Creates a broader lead image."},
+      {"chain_name": "Wide Modern Lead", "chain_summary": "For players who want the high-gain base with more width and post effects.", "type": "reverb", "device": "Hall Reverb", "rationale": "Finishes with a larger space."}
+    ]
+  },
+  "fuzz": {
+    "primary": [
+      {"chain_name": "Vintage Fuzz Approximation", "chain_summary": "A fuzzy, sustaining core aimed at playable vintage-style saturation rather than exact pedal cloning.", "type": "gate", "device": "Smart Gate", "rationale": "Very light gating avoids ruining fuzz cleanup response."},
+      {"chain_name": "Vintage Fuzz Approximation", "chain_summary": "A fuzzy, sustaining core aimed at playable vintage-style saturation rather than exact pedal cloning.", "type": "drive", "device": "Vintage Fuzz Face", "rationale": "Gets the chain into fuzzy territory quickly."},
+      {"chain_name": "Vintage Fuzz Approximation", "chain_summary": "A fuzzy, sustaining core aimed at playable vintage-style saturation rather than exact pedal cloning.", "type": "amp", "device": "Vintage Fuzz Amp", "rationale": "Warm amp pairing prevents the fuzz from getting shrill."},
+      {"chain_name": "Vintage Fuzz Approximation", "chain_summary": "A fuzzy, sustaining core aimed at playable vintage-style saturation rather than exact pedal cloning.", "type": "cab", "device": "4x12 British V30", "rationale": "Adds body and familiar fuzz projection."},
+      {"chain_name": "Vintage Fuzz Approximation", "chain_summary": "A fuzzy, sustaining core aimed at playable vintage-style saturation rather than exact pedal cloning.", "type": "reverb", "device": "Plate Reverb", "rationale": "Adds a slight tail without blurring the fuzz texture."}
+    ],
+    "alternative_1": [
+      {"chain_name": "Fuzz With Bloom", "chain_summary": "A softer, slightly more ambient fuzz path for leads and melodic lines.", "type": "drive", "device": "Vintage Fuzz Face", "rationale": "Provides the core fuzzy texture."},
+      {"chain_name": "Fuzz With Bloom", "chain_summary": "A softer, slightly more ambient fuzz path for leads and melodic lines.", "type": "amp", "device": "Boutique Lead Combo", "rationale": "Adds vocal sustain under fuzz."},
+      {"chain_name": "Fuzz With Bloom", "chain_summary": "A softer, slightly more ambient fuzz path for leads and melodic lines.", "type": "delay", "device": "Digital Delay", "rationale": "Supports sustained melodic phrases."},
+      {"chain_name": "Fuzz With Bloom", "chain_summary": "A softer, slightly more ambient fuzz path for leads and melodic lines.", "type": "reverb", "device": "Hall Reverb", "rationale": "Adds size without hiding the fuzz voice."}
+    ],
+    "alternative_2": [
+      {"chain_name": "Garage Fuzz Rhythm", "chain_summary": "A drier, more direct fuzz recommendation for garage and riff-centric parts.", "type": "drive", "device": "Vintage Fuzz Face", "rationale": "Still supplies the core texture."},
+      {"chain_name": "Garage Fuzz Rhythm", "chain_summary": "A drier, more direct fuzz recommendation for garage and riff-centric parts.", "type": "amp", "device": "British Crunch Head", "rationale": "Adds bite and aggression."},
+      {"chain_name": "Garage Fuzz Rhythm", "chain_summary": "A drier, more direct fuzz recommendation for garage and riff-centric parts.", "type": "cab", "device": "4x12 British V30", "rationale": "Retains familiar fuzz punch."},
+      {"chain_name": "Garage Fuzz Rhythm", "chain_summary": "A drier, more direct fuzz recommendation for garage and riff-centric parts.", "type": "eq", "device": "Studio EQ", "rationale": "Useful for taming woof or harsh top end."}
+    ],
+    "alternative_3": [
+      {"chain_name": "Washed Fuzz Lead", "chain_summary": "For expansive, droning fuzz tones with more tail and width.", "type": "drive", "device": "Vintage Fuzz Face", "rationale": "Core fuzzy engine."},
+      {"chain_name": "Washed Fuzz Lead", "chain_summary": "For expansive, droning fuzz tones with more tail and width.", "type": "amp", "device": "Vintage Fuzz Amp", "rationale": "Keeps the basic tonality warm."},
+      {"chain_name": "Washed Fuzz Lead", "chain_summary": "For expansive, droning fuzz tones with more tail and width.", "type": "delay", "device": "Dual Delay", "rationale": "Builds a larger image."},
+      {"chain_name": "Washed Fuzz Lead", "chain_summary": "For expansive, droning fuzz tones with more tail and width.", "type": "reverb", "device": "Ambient Cloud", "rationale": "Pushes the sound into a more cinematic texture."}
+    ]
+  },
+  "ambient_lead": {
+    "primary": [
+      {"chain_name": "Ambient Lead Foundation", "chain_summary": "A sustaining lead chain with controlled gain and pronounced time-based space.", "type": "gate", "device": "Smart Gate", "rationale": "Keeps tails natural while controlling noise."},
+      {"chain_name": "Ambient Lead Foundation", "chain_summary": "A sustaining lead chain with controlled gain and pronounced time-based space.", "type": "comp", "device": "Optical Comp", "rationale": "Smooths the front end and increases hold time."},
+      {"chain_name": "Ambient Lead Foundation", "chain_summary": "A sustaining lead chain with controlled gain and pronounced time-based space.", "type": "amp", "device": "Boutique Lead Combo", "rationale": "Singing lead voicing works well with large ambience."},
+      {"chain_name": "Ambient Lead Foundation", "chain_summary": "A sustaining lead chain with controlled gain and pronounced time-based space.", "type": "cab", "device": "1x12 Boutique Alnico", "rationale": "Adds sweetness in the upper mids."},
+      {"chain_name": "Ambient Lead Foundation", "chain_summary": "A sustaining lead chain with controlled gain and pronounced time-based space.", "type": "delay", "device": "Dual Delay", "rationale": "Provides width and rhythmic repeat texture."},
+      {"chain_name": "Ambient Lead Foundation", "chain_summary": "A sustaining lead chain with controlled gain and pronounced time-based space.", "type": "reverb", "device": "Ambient Cloud", "rationale": "Creates the spacious ambient tail."}
+    ],
+    "alternative_1": [
+      {"chain_name": "Ambient Clean Lead", "chain_summary": "Cleaner and more transparent for textural lead lines.", "type": "comp", "device": "Studio Comp", "rationale": "Keeps picking even."},
+      {"chain_name": "Ambient Clean Lead", "chain_summary": "Cleaner and more transparent for textural lead lines.", "type": "amp", "device": "US Clean Combo", "rationale": "Preserves note clarity."},
+      {"chain_name": "Ambient Clean Lead", "chain_summary": "Cleaner and more transparent for textural lead lines.", "type": "delay", "device": "Dual Delay", "rationale": "Creates a broad image."},
+      {"chain_name": "Ambient Clean Lead", "chain_summary": "Cleaner and more transparent for textural lead lines.", "type": "reverb", "device": "Ambient Cloud", "rationale": "Delivers the wash."}
+    ],
+    "alternative_2": [
+      {"chain_name": "Modulated Lead Wash", "chain_summary": "Uses gentle modulation for more width and movement.", "type": "comp", "device": "Optical Comp", "rationale": "Smooths attack for sustained lines."},
+      {"chain_name": "Modulated Lead Wash", "chain_summary": "Uses gentle modulation for more width and movement.", "type": "amp", "device": "Boutique Lead Combo", "rationale": "Expressive lead core."},
+      {"chain_name": "Modulated Lead Wash", "chain_summary": "Uses gentle modulation for more width and movement.", "type": "mod", "device": "Subtle Tri-Chorus", "rationale": "Adds movement without sounding obviously chorus-heavy."},
+      {"chain_name": "Modulated Lead Wash", "chain_summary": "Uses gentle modulation for more width and movement.", "type": "delay", "device": "Dual Delay", "rationale": "Provides stereo-like spread."},
+      {"chain_name": "Modulated Lead Wash", "chain_summary": "Uses gentle modulation for more width and movement.", "type": "reverb", "device": "Ambient Cloud", "rationale": "Creates a broad halo around the note."}
+    ],
+    "alternative_3": [
+      {"chain_name": "Gainier Ambient Lead", "chain_summary": "For players who want the same spatial idea but with a denser overdriven center.", "type": "drive", "device": "Transparent Drive", "rationale": "Adds thickness without going fully heavy."},
+      {"chain_name": "Gainier Ambient Lead", "chain_summary": "For players who want the same spatial idea but with a denser overdriven center.", "type": "amp", "device": "Modern High Gain Stack", "rationale": "Used moderately for a denser lead core."},
+      {"chain_name": "Gainier Ambient Lead", "chain_summary": "For players who want the same spatial idea but with a denser overdriven center.", "type": "delay", "device": "Digital Delay", "rationale": "Maintains repeat support."},
+      {"chain_name": "Gainier Ambient Lead", "chain_summary": "For players who want the same spatial idea but with a denser overdriven center.", "type": "reverb", "device": "Hall Reverb", "rationale": "Less extreme than cloud reverb, but still spacious."}
+    ]
+  }
+}
