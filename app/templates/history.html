@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+    <h1>Recent analyses</h1>
+    {% if records %}
+    <div class="history-list">
+        {% for record in records %}
+        <a href="/result/{{ record.id }}" class="history-item">
+            <div>
+                <strong>{{ record.source_filename }}</strong>
+                <p>{{ record.archetype.replace('_', ' ').title() }} · {{ record.guitar_type }} · {{ record.created_at.strftime('%Y-%m-%d %H:%M UTC') }}</p>
+            </div>
+            <span>{{ record.confidence_label }}</span>
+        </a>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p>No analyses yet.</p>
+    {% endif %}
+</section>
+{% endblock %}
